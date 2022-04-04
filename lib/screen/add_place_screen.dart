@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 
 import '../provider/great_places.dart';
 import '../widgets/image_input.dart';
+import 'package:location/location.dart';
 
 class AddPlaceScreen extends StatefulWidget {
   static const routeName = '/add-place';
